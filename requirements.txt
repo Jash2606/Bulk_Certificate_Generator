@@ -1,0 +1,16 @@
+# Runtime dependencies (API + worker). Test tools are in requirements-dev.txt.
+
+# Web API
+fastapi>=0.115,<0.142
+uvicorn>=0.30
+
+# Settings and validation
+pydantic-settings>=2.6
+email-validator>=2.0
+
+# Database: PostgreSQL is both the data store and the job queue
+sqlalchemy>=2.0.40,<2.1  # SQLAlchemy 2.0 series
+psycopg[binary]>=3.2
+
+# Certificate rendering
+reportlab>=4.0

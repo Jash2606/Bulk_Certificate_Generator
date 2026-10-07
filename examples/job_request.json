@@ -1,0 +1,11 @@
+{
+  "course_name": "FastAPI Bootcamp",
+  "issue_date": "2026-10-08",
+  "issued_by": "Aero Academy",
+  "recipients": [
+    { "name": "Asha Rao", "email": "asha@example.com" },
+    { "name": "José Müller", "email": "jose@example.com" },
+    { "name": "Bad Email", "email": "not-an-email" },
+    { "name": "Asha Again", "email": "ASHA@example.com" }
+  ]
+}
